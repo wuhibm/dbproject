@@ -1077,7 +1077,7 @@ typedef struct MergeJoinState
 	ExprContext *mj_InnerEContext;
 } MergeJoinState;
 
-// CSI3130 : Modified to support keeping track of both inner and outer hash tables
+// CSI3130 Symmetric Hash Join Project: Modified to keep track of both the inner and outer hash tables
 /* ----------------
  *	 HashJoinState information
  *
